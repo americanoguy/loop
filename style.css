@@ -1,0 +1,72 @@
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+        color: white;
+        background-color: green;
+        font-size: 3em;
+        text-align: center;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5vw;
+        box-shadow: 0 0 10px gray;
+        animation: h1animation 4s infinite;
+}
+h2 {
+        color: red;
+        background-color: black;
+        width: fit-content;
+        font-size: 3em;
+        border-radius: 20px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5vw;
+        box-shadow: 0 0 10px gray;
+        animation: h2animation 4s infinite;
+}
+
+
+
+@keyframes h1animation{
+    0%,100%{
+        color: white;
+        background-color: green;
+        font-size: 3em;
+        transform: scale(1.01);
+
+
+    }
+    50%{
+        color: green;
+        background-color: white;
+        border: 2px solid green;
+        font-size: 4em;
+        transform: scale(1.01);
+    }
+}
+@keyframes h2animation{
+    0%,100%{
+        color: red;
+        background-color: black;
+        font-size: 3em;
+        transform: scale(1.01);
+
+    }
+    50%{
+        color: black;
+        background-color: red;
+        font-size: 110px;
+        font-size: 4em;
+        transform: scale(1.01);
+    }
+}
+
+
+
+
+
