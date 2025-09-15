@@ -204,32 +204,32 @@
 // document.writeln(`tebrikler,cavab ${number} idi,Sizin hediyyeniz ${price} dollar`);
 
 
-let sans = 5;
-let number = Math.ceil(Math.random()*10);
-let mesaj = ("1 ile 10 arasinda bir reqem secin");
-let guess = prompt(mesaj);
-let success = true;
+//let sans = 5;
+//let number = Math.ceil(Math.random()*10);
+//let mesaj = ("1 ile 10 arasinda bir reqem    secin");
+//let guess = prompt(mesaj);
+//let success = true;
 
-while(guess!=number){
-    if(sans>1){
-        if(guess<number){
-            mesaj=("yuxari");
-        }else{
-            mesaj=("asagi");
-        }
-        sans--;
-        alert(`${sans} sansiniz qaldi`)
-        guess=prompt(mesaj);
-
-    }else{
-        success=false;
-        break;
-    }
+//while(guess!=number){
+//   if(sans>1){
+//      if(guess<number){
+//         mesaj=("yuxari");
+//     }else{
+//           mesaj=("asagi");
+//       }
+//        sans--;
+//        alert(`${sans} sansiniz qaldi`)
+//        guess=prompt(mesaj);
+//
+//    }else{
+//        success=false;
+//        break;
+//    }
 }
-if(success){
-    document.writeln(`<h1>Tebrikler,Reqem ${number} idi.</h1>`)
-}else{
-    document.writeln(`<h2>Uduzdunuz,Reqem ${number} idi</h2>`)
+//if(success){
+//    document.writeln(`<h1>Tebrikler,Reqem ${number} idi.</h1>`)
+//}else{
+//    document.writeln(`<h2>Uduzdunuz,Reqem ${number} idi</h2>`)
 }
 ---------------------------------
 let cehd=1;
