@@ -231,3 +231,40 @@ if(success){
 }else{
     document.writeln(`<h2>Uduzdunuz,Reqem ${number} idi</h2>`)
 }
+---------------------------------
+let cehd=1;
+
+let money=100;
+
+let number=Math.ceil(Math.random()*10;
+
+let mesaj=("1 ile 10 arasindaki dogru reqemi tapim");
+
+let guess=prompt(mesaj);
+
+
+while(guess!=number){
+
+       if(guess<number){
+        
+       mesaj=("Yuxari qalx");
+       
+       }else{
+       
+        mesaj=("Asagi dus");
+ 
+        }
+        cehd++;
+        guess=(mesaj);
+
+}
+
+money=Math.floor(money/sans);
+document.writeln(`Tebrikler,Siz reqemi ${cehd} cehd ile tapdiginiz ucun ${money} dollar qazandiniz.`)
+
+
+
+
+
+
+
