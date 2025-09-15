@@ -262,6 +262,48 @@ while(guess!=number){
 money=Math.floor(money/sans);
 document.writeln(`Tebrikler,Siz reqemi ${cehd} cehd ile tapdiginiz ucun ${money} dollar qazandiniz.`)
 
+---------------------------------------------
+
+let sans=3;
+let number=Math.ceil(Math.random()*10);
+Let message=("1-den 10-a reqem sec");
+Let guess=prompt(Mesaj);
+Let success=True;
+
+
+While(guess!=number){ 
+      
+
+     if(sans>1){
+     if(guess<number){
+     mesaj=("Yuxari qalx ");
+
+     }else{
+     
+      mesaj=("Asagi dus");
+     }
+     sans--;
+     alert=(`${sans} sansiniz qaldi`);
+     guess=promp(mesaj);
+
+     }else{
+
+     success=false;
+     break;
+
+     }
+
+}
+if(success){
+   
+  document.writeln(`Tebrikler,Eded ${number} idi`);
+
+
+}else{
+  
+    document.writeln(`Uduzdunuz,Eded ${number} idi`);
+
+}
 
 
 
